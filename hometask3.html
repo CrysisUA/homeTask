@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Логин инфо</legend>
+        <input type="text" placeholder="Логин" /> Логин
+        <input type="password" placeholder="Пароль" /> Пароль
+    </fieldset>
+    <fieldset>
+        <legend>Приватная инфо</legend>
+        <h4>
+        <input type="text" placeholder="Фамилия"  /> Фамилия
+        <input type="text" placeholder="Имя"/> Имя
+    </h4>
+        <label>  Пол </label>
+        <label> <input type="radio" name="sex"> Мужской </label>
+        <label> <input type="radio" name="sex"> Женский </label>
+        <p>Дата рождения:</p>
+        <input type="datetime-local" placeholder="Дата рождения" />
+    </fieldset>
+    <fieldset>
+        <legend>Контактная инфо</legend>
+        <input type="email" placeholder="email" />
+        <input type="text" placeholder="Страна" />
+        <input type="text" placeholder="Город" />
+        <input type="text"placeholder="Номер телефона" />
+    </fieldset>
+    <fieldset>
+        <legend>Дополнительно</legend>
+        <textarea> О себе </textarea>
+        
+        <h5>Родной язык</h5>
+        <select>
+            <option>Русский</option>
+            <option>Иврит</option>
+            <option>Индийский</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Сколько денег готов лишиться?</legend>
+        <label>  Сколько все таки? </label>
+        <label> <input type="radio" name="sex"> Всех </label>
+        <label> <input type="radio" name="sex"> Почти всех </label>
+        <input type="range" /> Тащи на максимум
+    </fieldset>
+    <label>
+        <input type="checkbox" checked /> Я разрешаю передать мои личные данные 
+    </label>
+        <button>Отправить</button>
+        
+   
+    </form>
+</body>
+</html>
