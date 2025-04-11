@@ -1,0 +1,35 @@
+body {
+    color:white
+}
+
+.Uslugi {
+    color:#85899c
+}
+.Info {
+    color:#85899c
+}
+.GruzoPerevozki {
+    color:#85899c
+}
+
+.UdalitFoto {
+    color:#E53535
+}
+
+button:hover {
+    color:white
+}
+button:active {
+    color:blue
+}
+h2 {
+    font-family: Proxima Nova;
+font-weight: 700;
+font-size: 36px;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color:black
+
+}
