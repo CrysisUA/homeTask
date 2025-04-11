@@ -30,6 +30,14 @@ line-height: 125%;
 letter-spacing: 0%;
 text-align: center;
 text-transform: uppercase;
-color:black
+}
+.gruz {
+    font-family: Proxima Nova;
+font-weight: 700;
+font-size: 36px;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
 
 }
