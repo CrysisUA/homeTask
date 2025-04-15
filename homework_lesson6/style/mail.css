@@ -1,5 +1,5 @@
 body {
-    color:white
+    color: black
 }
 
 .Uslugi {
@@ -38,6 +38,10 @@ font-size: 36px;
 line-height: 125%;
 letter-spacing: 0%;
 text-align: center;
-text-transform: uppercase;
+text-transform: uppercase; }
 
+
+ .li class header {
+    float: left;
+    margin: 20px;
 }
