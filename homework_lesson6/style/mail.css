@@ -1,47 +1,117 @@
 body {
-    color: black
+    background: #282B38
 }
-
-.Uslugi {
-    color:#85899c
+header {
+    background:#282838;
+    overflow: auto
 }
-.Info {
-    color:#85899c
-}
-.GruzoPerevozki {
-    color:#85899c
-}
-
-.UdalitFoto {
-    color:#E53535
-}
-
-button:hover {
-    color:white
-}
-button:active {
-    color:blue
-}
-h2 {
-    font-family: Proxima Nova;
-font-weight: 700;
-font-size: 36px;
-line-height: 125%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-}
-.gruz {
-    font-family: Proxima Nova;
-font-weight: 700;
-font-size: 36px;
-line-height: 125%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase; }
-
-
- .li class header {
+header .header_img {
     float: left;
-    margin: 20px;
+}
+.header_nav {
+    float: left;
+}
+header .header_nav ul {
+    overflow: auto;
+}
+header .header_nav .header_nav_item {
+    float: left
+}
+header .header_btn {
+    float: left;
+}
+
+.calculation_prices {
+    overflow: auto;
+}
+.left_side {
+    background: #363A4D;
+    float: left;
+
+}
+.right_side{
+    float: left;
+}
+.calculation_prices_wrap{
+    background: #363A4D
+}
+.calculation_prices_wrap_step p {
+    float: left;
+}
+.calculation_prices_wrap_form{
+    overflow: auto;
+}
+.calculation_prices_wrap_item {
+    float: left;
+    width: 50%;
+}
+.why_us_item {
+    overflow: auto;
+    float: left;
+    width: 25%;
+    background: #363A4D;
+
+}
+.Transportation {
+    float: left;
+    overflow: auto;
+    
+}
+.delivery_item {
+    float: left;
+    overflow: auto;
+    background:#363A4D;
+}
+.delivery_item_option_item {
+    float: left;
+}
+.delivery_item_description {
+    overflow: auto;
+    float: left;
+}
+.delivery_item_btn_wrap {
+    float: left;
+}
+.Services {
+    float: left;
+    
+    background:#363A4D;
+}
+
+.Services_item {
+    float: left;
+    overflow: auto;
+}
+    
+.img {
+    width: 15%;
+}
+
+.about_company {
+    float: left;
+    overflow: auto;
+
+}
+.about_company_item {
+    float: left;
+    overflow: auto;
+}
+
+.cooperation {
+    background:#363A4D;
+    float: left;
+
+}
+.cooperation_item {
+    float: left;
+}
+.Fotter {
+    float: left;
+}
+.footer_item {
+    float: left;
+}
+.social_media {
+    float: left;
+    overflow: auto;
 }
