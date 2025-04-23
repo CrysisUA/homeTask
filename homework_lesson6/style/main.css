@@ -1,9 +1,18 @@
 body {
-    background: #282B38
+    color: white;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    background: #282B38;
 }
 header {
+    font-family: 'Proxima Nova Rg';
     background:#282838;
-    overflow: auto
+    overflow: auto;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 25px; 0px;
+
 }
 header .header_img {
     float: left;
@@ -11,16 +20,18 @@ header .header_img {
 .header_nav {
     float: left;
 }
-header .header_nav ul {
+header .header_nav_ul {
     overflow: auto;
 }
 header .header_nav .header_nav_item {
-    float: left
+    float: left;
 }
 header .header_btn {
     float: left;
 }
+.h1 {
 
+}
 .calculation_prices {
     overflow: auto;
 }
@@ -33,7 +44,8 @@ header .header_btn {
     float: left;
 }
 .calculation_prices_wrap{
-    background: #363A4D
+    overflow: auto;
+    background: #363A4D;
 }
 .calculation_prices_wrap_step p {
     float: left;
@@ -45,17 +57,29 @@ header .header_btn {
     float: left;
     width: 50%;
 }
-.why_us_item {
+.why_us {
     overflow: auto;
-    float: left;
-    width: 25%;
-    background: #363A4D;
+    background:#363A4D
+}
+.why_us_wrap {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+    align-content: center
+    overflow: auto;
+}
+
+.why_us_item {
+    
+    width: 263px;
+    
 
 }
 .Transportation {
-    float: left;
     overflow: auto;
-    
 }
 .delivery_item {
     float: left;
@@ -72,29 +96,41 @@ header .header_btn {
 .delivery_item_btn_wrap {
     float: left;
 }
-.Services {
-    float: left;
-    
-    background:#363A4D;
-}
 
-.Services_item {
-    float: left;
+.Services {
+    overflow: auto;
+    background:#363A4D;
+    width: 100%;
+    max-width: 1820px;
+    height: 100%;
+    max-height: 794px;
+}
+.services_wrap {
     overflow: auto;
 }
-    
-.img {
-    width: 15%;
+.Services_item {
+    float: left;
+    width: 100%;
+    max-width: 360px;
+    height: 100%;
+    max-height: 482px;
+}
+.services_item_img {
+    width: 100%;
+    max-width: 360px;
+    height: 100%;
+    max-height: 482px;
 }
 
 .about_company {
-    float: left;
+    display: flex;
     overflow: auto;
-
 }
+
 .about_company_item {
-    float: left;
+    
     overflow: auto;
+    width: 50%;
 }
 
 .cooperation {
