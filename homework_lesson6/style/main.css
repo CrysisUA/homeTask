@@ -6,23 +6,24 @@ body {
     
 }
 .header {
-    overflow: auto;
+   
     width: 100%;
-    max-width: 1440px;
     margin: 0px auto;
     padding: 25px;
 }
-.header_nav {
-    float: left;
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.header .header_wrap .header_nav .header_nav_item {
-    float: left;
+.header_nav ul {
+    display: flex;
 }
-.header .header_wrap .header_nav .header_btn {
-    float: right; }
-.header .header_wrap .header_img {
-        float: left; }
-.header_btn {
+
+.primary {
     background: #E58D35;
     border-radius: 20px;         
 }
@@ -35,66 +36,110 @@ body {
     border-radius: 20px;
 }
 
-
+.title_start {
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
 .calculation_prices {
+   
+    margin: 0 auto;
+}
+
+.calculation_prices_wrap_form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculation_prices_steps {
+    display: flex;
+
+}
+.calculation_prices_step {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background:#89C249;
+    border-radius: 50%;
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.calculation_prices_step_2{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background:#4c5169;
+    border-radius: 50%;
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 50px;
     
-    overflow: auto;
-    flex-direction: row;
-    background: #363A4D;
-    width: 100%;
-    max-width: 1207px;
-    height: 100%;
-    max-height: 917px;
 }
-.calculation_prices_wrap {
-    overflow: auto;
+.calculation_prices_wrap_item {
+    width: 50%;
 }
-.calculation_prices .calculation_prices_wrap_section .calculation_prices_wrap .calculation_prices_wrap_step {
-    float: left;
+
+.calculation_prices_wrap_item_2 {
+    width: 526px;
 }
+
+.calculation_prices_contaner {
+    display: flex;
+}
+
 .left_side {
-    float: left;
+    
+    
+    
     width: 100%;
-    max-width: 625px;
-    height: 100%;
-    max-height: 597px;
+    max-width: 635px;
+    
 }
-.right_side {
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    max-height: 550px;
-    float: right;
+.calculation_prices_wrap_form {
+    background: #363A4D;
+    border-radius: 20px;
 }
-
-
-
-
-
-
-
 
 
 .why_us {
-    overflow: auto;
-    background: #6C7188;
-    width: 1820px;
-    height: 725px;
+    
+    background: #363A4D;
+    max-width: 1820px;
+    padding: 90px 0px;
+    border-radius: 20px;
 }
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.title-left {
+    text-align: left;
+}
+
 .why_us_wrap {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     text-align: center;
+    
 }
 .why_us_item {
     width: 100%;
     max-width: 263px;
-    height: 100%;
-    max-height: 179px;
+   
 }
 
 
@@ -103,34 +148,35 @@ body {
 
 
 .transportation {
-    overflow: auto;
+    
     width: 100%;
     max-width: 1323px;
-    height: 100%;
-    max-height: 597px;
+    margin: 100px 290px;
+    
 }
 .delivery_item {
     width: 100%;
     max-width: 360px;
-    height: 100%;
-    max-height: 482px;
+    margin: 50px 100px 30px 90px;
     text-align: center
 
 }
-.delivery_item_wrap {
-    overflow: auto;
-}
-.delivery_item_option_item {
-    float: left;
-}
+
+
 .transportation_wrap {
-    overflow: auto;
+    display: flex;
+    align-items: center;
+    max-width: 1320px;
+    
+    
 }
 .delivery_item {
     
     background:#363A4D;
-    float: left;
-    justify-content: center
+  
+    justify-content: center;
+    border-radius: 20px;
+
 }
 
 .primary {
@@ -147,26 +193,28 @@ body {
 
 .services {
     background:#363A4D;
-    overflow: auto;
+    
     width: 100%;
     max-width: 1820px;
-    height: 100%;
-    max-height: 794px;
+  
     text-align: center;
 }
-.services_wrap {overflow: auto;
+.services_wrap {
+    display: flex;
+    align-items: center;
 }
 .services_item {
     width: 100%;
     max-width: 360px;
-    height: 100%;
-    max-height: 482px;
+    
     text-align: center;
-    float: left;
+    
     text-align: center;
 }
-.services_item_div {
-    float: left;
+.services_item {
+    border-radius: 20px;
+    background: #E58D35;
+    
 }
 
 
@@ -175,22 +223,21 @@ body {
 
 .about_company {
     display: flex;
-    overflow: auto;
+    align-items:center;
+    
 }
 .about_company_item {
-    float: left;
+    
 }
 .about_company_p {
     width: 100%;
     max-width: 555px;
-    height: 100%;
-    max-height: 331px;
+    
 }
 .about_company_img {
     width: 100%;
     max-width: 632px;
-    height: 100%;
-    max-height: 632px;
+    
 }
 
 
@@ -198,16 +245,17 @@ body {
 
 
 .cooperation{
-    overflow: auto;
+    
     background: #363A4D;
     width: 100%;
-    max-width: 1820px;
-    height: 100%;
-    max-height: 1265px;
+    max-width: 1845px;
     text-align: center;
+
 }
-.cooperation_item {
-    
+.cooperation_item_wrap {
     display: flex;
-    float: left;
+   
+}
+.Fotter {
+    display: flex;
 }
