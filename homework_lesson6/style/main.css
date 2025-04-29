@@ -11,7 +11,9 @@ body {
     margin: 0px auto;
     padding: 25px;
 }
-
+.header_img_wrap {
+    margin: 25px 100px 30px 390px;
+}
 .header_wrap {
     display: flex;
     justify-content: space-between;
@@ -43,14 +45,20 @@ body {
     text-transform: uppercase;
 }
 
+.Ship {
+    margin: 160px 1030px 230px 345px;
+}
 
 
 .calculation_prices {
    
     margin: 0 auto;
 }
-
+.calculation_prices_contaner{
+    margin: 0px 340px 20px 355px;
+}
 .calculation_prices_wrap_form {
+    
     display: flex;
     flex-wrap: wrap;
 }
@@ -116,6 +124,7 @@ body {
     max-width: 1820px;
     padding: 90px 0px;
     border-radius: 20px;
+    margin: 25px 325px 110px 250px;
 }
 
 .title {
@@ -196,8 +205,8 @@ body {
     
     width: 100%;
     max-width: 1820px;
-  
     text-align: center;
+    margin: 100px 40px 60px 40px;
 }
 .services_wrap {
     display: flex;
@@ -224,6 +233,7 @@ body {
 .about_company {
     display: flex;
     align-items:center;
+    margin: 60px 340px 30px 380px;
     
 }
 .about_company_item {
@@ -250,6 +260,7 @@ body {
     width: 100%;
     max-width: 1845px;
     text-align: center;
+    margin: 100px 40px 65px 40px;
 
 }
 .cooperation_item_wrap {
@@ -258,4 +269,5 @@ body {
 }
 .Fotter {
     display: flex;
+    margin: 65px 390px 50px 390px;
 }
