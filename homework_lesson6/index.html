@@ -6,7 +6,7 @@
     <title>Master Tao</title>
 
     <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/normalize.css" />
+    
     <link rel="stylesheet" href="./fonts/stylesheet.css" />
     <link rel="stylesheet" href="./style/main.css" />
 </head>
@@ -23,15 +23,17 @@
                     <li class="header_nav_item">Оформить груз</li>
                 </ul>
             </nav>
-            <div class="header_btn"><button class="primary">Оставить заявку</button></div>
+            <div class="header_btn_wrap"><button class="primary header">Оставить заявку</button></div>
         </div>
     </header>
 
     <div class="home">
         <div class="Ship">
-            <h1 class="title_start title-left">Прямое карго из Китая</h1>
-            <p>Доставляем любые грузы из китая по честной цене</p>
-            <button class="primary_with_arrow">Рассчитать стоимость <img src="./img/Vector.png" alt=""/></button>
+            <div class="ship_content">
+                <h1 class="title_start title-left">Прямое карго из Китая</h1>
+                <p class="ship_content_p">Доставляем любые грузы из китая по честной цене</p>
+                <button class="primary_with_arrow"> Рассчитать стоимость </button>
+            </div>
         </div>
 
         <section class="calculation_prices">
@@ -48,29 +50,31 @@
                                 <div class="calculation_prices_step_2" ><p>2</p></div>
                                 <div class="calculation_prices_step_2" ><p>3</p></div>
                             </div>
-                            <div class="calculation_prices_wrap_item">
-                                <label><p>Категория товара:</p><input  type="text" placeholder="Категория товара"></label>
-                            </div>
-        
-                            <div class="calculation_prices_wrap_item">
-                                <label><p>Стоимость груза:</p><input type="text" placeholder="Введите стоимость">  </label>
-                            </div>
-        
-                            <div class="calculation_prices_wrap_item">
-                                <label><p>Вес груза (кг):</p><input type="text" placeholder="Введите вес">  </label>
-                            </div>
-        
-                            <div class="calculation_prices_wrap_item">
-                                <label><p>Обьем груза (м3):</p><input type="text" placeholder="Введите обьем"> </label>
-                            </div>
-        
-                            <div class="calculation_prices_wrap_item">
-                                <label><input type="checkbox"><p>Страховка </p></label>
-                                <label><input type="checkbox" checked> <p>Таможенное оформление</p></label>
-                            </div>
-        
-                            <div class="calculation_prices_wrap_item">
-                                <label><p>Код ТН ВЭД:</p><input type="text" placeholder="Введите код">  </label>
+                            <div class="fielts_wrap">
+                                <div class="calculation_prices_wrap_item">
+                                    <label><p>Категория товара:</p><input  type="text" placeholder="Категория товара"></label>
+                                </div>
+            
+                                <div class="calculation_prices_wrap_item">
+                                    <label><p>Стоимость груза:</p><input type="text" placeholder="Введите стоимость">  </label>
+                                </div>
+            
+                                <div class="calculation_prices_wrap_item">
+                                    <label><p>Вес груза (кг):</p><input type="text" placeholder="Введите вес">  </label>
+                                </div>
+            
+                                <div class="calculation_prices_wrap_item">
+                                    <label><p>Обьем груза (м3):</p><input type="text" placeholder="Введите обьем"> </label>
+                                </div>
+            
+                                <div class="calculation_prices_wrap_item insurance">
+                                    <label><input type="checkbox"><p>Страховка </p></label>
+                                    <label><input type="checkbox" checked> <p>Таможенное оформление</p></label>
+                                </div>
+            
+                                <div class="calculation_prices_wrap_item">
+                                    <label><p>Код ТН ВЭД:</p><input type="text" placeholder="Введите код">  </label>
+                                </div>
                             </div>
                             <div class="calculation_prices_wrap_item_2">
                                 <p> Фотография jpeg.</p>
@@ -243,8 +247,8 @@
             <div class="about_company_item">
                 <h2 class="title title-left">О КОМПАНИИ</h2>
                 <div class="about_company_p">
-                    <p >Компания Азия Карго - это полный комплекс логистических услуг по доставке грузов из Китая в Россию - сборные грузы и цельные товарные партии, услуги посредника ТаоБао, КАРГО Китай-Россия. Для вашего удобства есть тарифы на лёгкий и тяжелый куб. Мы работаем на рынке более 4 лет, а руководители компании занимаются логистикой уже более 11 лет. </p>
-                    <p >Мы стремимся предоставить лучшие условия доставки и лучший сервис своим клиентам. Выбирая нас - вы выбираете качественную доставку оптимальную по цене и времени! Убедитесь в этом сами!</p>
+                    <p class="about_company" >Компания Азия Карго - это полный комплекс логистических услуг по доставке грузов из Китая в Россию - сборные грузы и цельные товарные партии, услуги посредника ТаоБао, КАРГО Китай-Россия. Для вашего удобства есть тарифы на лёгкий и тяжелый куб. Мы работаем на рынке более 4 лет, а руководители компании занимаются логистикой уже более 11 лет. </p>
+                    <p class="about_company" >Мы стремимся предоставить лучшие условия доставки и лучший сервис своим клиентам. Выбирая нас - вы выбираете качественную доставку оптимальную по цене и времени! Убедитесь в этом сами!</p>
                 </div>
             </div>
 
@@ -278,7 +282,7 @@
                             <li>Если Вы оформили груз по нашей инструкции и сделали все правильно, то при получении Вашего груза на складе в Китае статус заказа изменится на "На складе".
                             </li>
                         </ul>
-                        <button class="primary_with_arrow">Оформить груз <img src="./img/Vector.png" /></button>
+                        <button class="primary_with_arrow">Оформить груз </button>
                     </div>
                 </div>
             </div>
