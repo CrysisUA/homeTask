@@ -24,6 +24,18 @@ body {
     display: flex;
     gap: 40px;
     list-style: none;
+    align-items:center;
+    height: 50px;
+}
+.li_header_nav_item {
+    padding: 0px 15px;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+}
+.li_header_nav_item hover{
+    border-color: red;
 }
 
 .primary {
@@ -146,6 +158,8 @@ body {
 }
 
 .calculation_prices_steps {
+    position: relative;
+    bottom: 75px;
     display: flex;
 
 }
@@ -283,7 +297,7 @@ body {
 
 .services {
     background:#363A4D;
-    
+    border-radius: 20px;
     width: 100%;
     max-width: 1840px;
     text-align: center;
