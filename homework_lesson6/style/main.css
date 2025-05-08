@@ -5,6 +5,9 @@ body {
     font-style: normal;
     
 }
+.calculation_prices_label {
+    width: 100%;
+}
 .header {
    
     width: 100%;
@@ -35,7 +38,7 @@ body {
     cursor: pointer;
 }
 .li_header_nav_item hover{
-    border-color: red;
+    
 }
 
 .primary {
@@ -52,7 +55,8 @@ body {
     color:#fff;
 
 }
-.primary header {
+.header_btn_wrap primary_header_btn {
+    min-width: 170px;
     max-width: 170px;
     width: 100%; 
     align-items:center;
@@ -64,25 +68,26 @@ body {
     background: #E58D35;
     border: 1px solid #E58D35;
     border-radius: 50px;
-    height: 100%;
+    /* height: 100%; */
     height: 63px;
-    max-width: 293px;
+    max-width: 256px;
     width: 100%;
     display: flex;
-    align-items:center;
-    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
     padding: 0px 35px;
     background-image: url(../img/Vector.png);
     background-repeat: no-repeat;
-    background-position: 240px center;
-
+    background-position: 206px center;
 }
 
+
+
 .primary_with_arrow:hover {
-    background-position: 230px center;
+    background-position: 190px center;
     background-color: transparent;
     border: 1px solid #E58D35;
-    color:#fff;
+    color: #fff;
 }
 
 .secondary {
@@ -93,6 +98,7 @@ body {
     height: 50px;
     max-width: 155px;
     width: 100%; 
+    margin-top: 20px;
 }
 .secondary:hover{
     background-color: #E58D35;
@@ -149,17 +155,16 @@ body {
     margin: 0 auto;
 }
 .calculation_prices_wrap_form {
-    
     background: #363A4D;
     border-radius: 20px;
-    display: flex;
     flex-wrap: wrap;
-    padding: 50px;
-}
+    padding: 70px 50px 40px 50px;
+    }
+
 
 .calculation_prices_steps {
-    position: relative;
-    bottom: 75px;
+    position: absolute;
+    bottom: -110px;
     display: flex;
 
 }
@@ -197,9 +202,28 @@ body {
 
 .calculation_prices_wrap_item_2 {
     width: 526px;
+    
 }
-.calculation_prices_wrap_item insurance {
+.calculation_prices_wrap_item_2 p_1 {
+    text-align: left;
+}
+
+.calculation_prices_wrap_item_insurance {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.calculation_prices_label p {
+    margin-bottom: 6px;
+}
+.checkbox {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    box-sizing:border-box;
 }
 
 .calculation_prices_wrap_item input {
@@ -325,8 +349,20 @@ body {
     background-position: center;
     text-align: center;
     border-radius: 50px;
+    position: relative;
 }
+.services_item_div {
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding: 25px;
+    text-align: left;
+}
+.services_item_p {
+    margin-bottom: 15px;
+    text-align: left;
 
+}
 
 
 .about_company {
