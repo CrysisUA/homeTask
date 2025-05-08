@@ -202,6 +202,9 @@ body {
 
 .calculation_prices_wrap_item_2 {
     width: 526px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px 15px 0px;
     
 }
 .calculation_prices_wrap_item_2 p_1 {
