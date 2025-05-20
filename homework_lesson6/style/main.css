@@ -28,6 +28,7 @@ body {
     gap: 40px;
     list-style: none;
     align-items:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     
 }
 .header_nav_item {
@@ -50,7 +51,8 @@ body {
     height: 50px;
     max-width: 155px;
     width: 100%;  
-    border:none;     
+    border:none;  
+    color:#fff;   
 }
 .primary:hover {
     background-color: transparent;
@@ -80,6 +82,7 @@ body {
     background-image: url(../img/Vector.png);
     background-repeat: no-repeat;
     background-position: 206px center;
+    color:#fff;
 }
 
 
@@ -326,11 +329,26 @@ body {
     max-width: 263px;
    
 }
+.cooperation ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.cooperation button {
+    margin-top: 30px;
+}
+.cooperation img {
+    width: 560px;
+}
+    
+.cooperation h2 {
+    margin-bottom: 20px;
+}
 
-
-
-
-
+.cooperation_register {
+    margin-bottom: 100px;
+    font-size: 21px;
+    font-weight: lighter;
+}
 
 .transportation {
     padding: 100px 0px;
@@ -484,6 +502,7 @@ body {
 .about_company_text_wrap {
     width: 100%;
     max-width: 555px;
+    line-height: 1.8;
     
 }
 .about_company_img {
@@ -509,6 +528,7 @@ body {
     text-align: center;
     margin: 0px auto;
     padding: 90px 340px 100px 340px;
+    line-height: 1.8;
 
 }
 .cooperation_item_wrap {
@@ -526,13 +546,20 @@ body {
     width: 100%;
     max-width: 1840px;
     text-align: center;
-    margin-top: 65px;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 50px;
 }
 .footer_item {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 75px;
+    width: 265px;
+}
+.footer_item adress {
+    margin-left: 315px;
+    font-size: 14px;
 }
 .footer_h4 {
     margin-bottom: 15px;
@@ -544,7 +571,22 @@ body {
 }
 .footer_social_media {
     display: flex;
-    justify-content:center;
+    justify-content:left;
     flex-direction: row;
+    margin-top: 25px;
 
+}
+.footer ul li {
+    text-decoration: underline;
+    color:#85899C;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.footer_item_img {
+    width: 170px;
+}
+.footer_item_adress_1 {
+    margin-top: 30px;
+    line-height: 1.8;
 }
