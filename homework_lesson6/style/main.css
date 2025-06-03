@@ -153,7 +153,7 @@ body {
     padding-top: 160px;
     position: absolute;
     top: 0px;
-    left: 12%;
+    left: 17%;
 }
 
 .ship_content_p {
@@ -538,6 +538,36 @@ body {
 
 
 
+.FAQ h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.FAQ_items{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1155px;
+    justify-content: center;
+    align-items: center;
+}
+.FAQ_item_left {
+    max-width: 725px;
+}
+.FAQ_item_right{
+    display: flex;
+    flex-direction: column;
+    max-width: 395px;
+}
+.FAQ_item_wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 395px;
+}
+
+
+
 
 .cooperation{
     border-radius: 20px;
@@ -613,3 +643,17 @@ body {
     margin-top: 30px;
     line-height: 1.8;
 }
+
+@media (max-width: 1310px) {
+    .left_side {
+        padding: 0px 15px;
+    }
+    .about_company_item {
+        padding: 0px 15px;
+    }
+
+}
+@media (max-width: 1210px) {
+    .left_side {
+        padding: 0px 15px;}
+    }
