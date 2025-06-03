@@ -15,7 +15,10 @@ body {
     padding: 25px;
 }
 
-
+.p {
+    line-height: 125%;
+    font-size: 18px;
+}
 .header_wrap {
     display: flex;
     justify-content: space-between;
@@ -31,7 +34,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     
 }
-.header_nav_item {
+.header_nav_item a{
     padding: 0px 15px;
     height: 50px;;
     display: flex;
@@ -39,8 +42,10 @@ body {
     cursor: pointer;
     box-sizing:border-box;
     border-bottom: 1px solid transparent;
+    color: #fff;
+    text-decoration: none;
 }
-.header_nav_item:hover{
+.header_nav_item a:hover{
     border-bottom: 1px solid #E58D35
 }
 
@@ -52,7 +57,9 @@ body {
     max-width: 155px;
     width: 100%;  
     border:none;  
-    color:#fff;   
+    color:#fff; 
+    cursor: pointer;  
+    font-size: 15px;
 }
 .primary:hover {
     background-color: transparent;
@@ -83,6 +90,8 @@ body {
     background-repeat: no-repeat;
     background-position: 206px center;
     color:#fff;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 
@@ -92,6 +101,7 @@ body {
     background-color: transparent;
     border: 1px solid #E58D35;
     color: #fff;
+    font-size: 16px;
 }
 
 .secondary {
@@ -103,12 +113,15 @@ body {
     max-width: 155px;
     width: 100%; 
     color: white;
+    cursor: pointer;
+    font-size: 15px;
     
 }
 .secondary:hover{
     background-color: #E58D35;
     border: 1px solid #E58D35;
     color:#fff;
+    font-size: 15px;
 }
 .title_start {
     font-size: 56px;
@@ -141,8 +154,10 @@ body {
 }
 
 .ship_content_p {
-    max-width: 350px;
+    max-width: 330px;
     margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 135.5%;
 
 }
 
@@ -322,6 +337,8 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     text-align: center;
+    margin: 0 auto;
+    max-width: 1230px;
     
 }
 .why_us_item {
@@ -527,7 +544,7 @@ body {
     max-width: 1840px;
     text-align: center;
     margin: 0px auto;
-    padding: 90px 340px 100px 340px;
+    padding: 100px 345px;
     line-height: 1.8;
 
 }
@@ -544,11 +561,14 @@ body {
 .footer {
     display: flex;
     width: 100%;
-    max-width: 1840px;
+    max-width: 1140px;
     text-align: center;
     margin: 0 auto;
     padding-top: 65px;
     padding-bottom: 50px;
+    justify-content: center;
+    border-top: 1px solid orange;
+    margin-top: 65px;
 }
 .footer_item {
     display: flex;
