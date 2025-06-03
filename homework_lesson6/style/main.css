@@ -151,6 +151,9 @@ body {
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 160px;
+    position: absolute;
+    top: 0px;
+    left: 12%;
 }
 
 .ship_content_p {
