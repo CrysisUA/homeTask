@@ -97,7 +97,7 @@ body {
 
 
 .primary_with_arrow:hover {
-    background-position: 190px center;
+    background-position: 200px center;
     background-color: transparent;
     border: 1px solid #E58D35;
     color: #fff;
@@ -363,7 +363,12 @@ body {
 .cooperation h2 {
     margin-bottom: 20px;
 }
-
+.cooperation h2::after {
+    width: 100%;
+    height: 23px;
+    content: "_______________________________";
+    background-color: #3498db
+}
 .cooperation_register {
     margin-bottom: 100px;
     font-size: 21px;
@@ -536,7 +541,9 @@ body {
 }
 
 
-
+.FAQ {
+    margin-bottom: 100px;
+}
 
 .FAQ h2 {
     font-size: 36px;
@@ -559,6 +566,11 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 395px;
+    background-color: #363A4D;
+    border-radius: 20px;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
 }
 .FAQ_item_wrap {
     display: flex;
@@ -566,9 +578,35 @@ body {
     max-width: 395px;
 }
 
+.FAQ_label input {
+    width: 100%;
+    max-width: 313px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 14px;
+}
 
-
-
+.FAQ_item_right h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.FAQ_item_right p {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.FAQ_item_right button {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.accordion-button collapsed {
+    background-color: #3A444E;
+}
 .cooperation{
     border-radius: 20px;
     background: #363A4D;
@@ -577,7 +615,7 @@ body {
     max-width: 1840px;
     text-align: center;
     margin: 0px auto;
-    padding: 100px 345px;
+    padding: 100px 0px;
     line-height: 1.8;
 
 }
@@ -642,8 +680,12 @@ body {
 .footer_item_adress_1 {
     margin-top: 30px;
     line-height: 1.8;
+    display: flex;
+    flex-direction: column;
 }
-
+.footer_item_adress_1 a{
+    color:#fff;
+}
 @media (max-width: 1310px) {
     .left_side {
         padding: 0px 15px;
